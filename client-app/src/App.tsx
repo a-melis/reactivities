@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
 import axios from 'axios';
-import { Header, List } from 'semantic-ui-react'
+import { Header, List } from 'semantic-ui-react';
 
 
 class App extends Component {
@@ -24,9 +24,6 @@ class App extends Component {
                  <List.Item key={ value.id }> {value.name} </List.Item>
             ))}
           </List>
-        <ul>
-          
-        </ul>
       </div> 
     );
   }
